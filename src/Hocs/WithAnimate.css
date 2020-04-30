@@ -1,0 +1,21 @@
+.clients-enter {
+    opacity: 0.01;
+    transform: scale(1.1);
+    }
+    
+.clients-enter-active {
+opacity: 1;
+transform: scale(1);
+transition: all 300ms;
+}
+
+.clients-exit {
+opacity: 1;
+transform: scale(1);
+}
+
+.clients-exit-active {
+opacity: 0.01;
+transform: scale(1.1);
+transition: all 300ms;
+}
